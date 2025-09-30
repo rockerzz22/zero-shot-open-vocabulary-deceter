@@ -60,7 +60,7 @@ https://cocodataset.org/#download
 
 
 ## 系统架构图
-![image] image/clip-maskrcnn.png
+image/clip-maskrcnn.png
 
 ## 核心函数说明
 | 函数名称 | 功能描述 | 输入参数 | 输出结果 |
