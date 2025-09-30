@@ -11,8 +11,11 @@
 根据考核内容（利用clip模型和mask-rcnn模型制作zero-shot open vocabulary detector并将f-vlm的理念应用其中）， 总共分成了四个部分：
 
 1.（clip-mask-rcnn.py)：单纯使用clip模型和mask-rcnn模型制作的检测器鉴别图片。
+
 2.（clip-evaluate.py） coco数据集测试检测器的clipscore和每个类别的准确性
+
 3.（F-vlm.py) 应用f-vlm理念配合clip和mask-rcnn模型制作的检测器鉴别图片（实际效果并不理想）
+
 4.（F-vlm-evaluate.py)同样coco数据集测试检测器的clipscore和每个类别的准确性。
 
 
@@ -21,9 +24,13 @@
 ## 环境配置
 采用Anaconda创建的虚拟环境运行该实践
 Python 3.11.13
+
 Pytorch 2.7.0
+
 Clip模型：ViT-B/32
+
 Mask-rcnn:COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml
+
 COCO数据集：val2017（5000张测评图片）
 
 ## 依赖安装
