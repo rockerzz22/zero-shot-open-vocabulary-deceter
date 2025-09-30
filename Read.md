@@ -65,7 +65,7 @@ clip-maskrcnn制作检测器架构图![CLIP 模型结构](image/clip-maskrcnn.pn
 
 ## 测评图演示
 原图：![CLIP 模型结构](image/animal.png)
-测评图：![CLIP 模型结构](imagezero-shot-results.png)
+测评图：![CLIP 模型结构](image/zero-shot-results.png)
 
 ## 核心函数说明
 | 函数名称 | 功能描述 | 输入参数 | 输出结果 |
